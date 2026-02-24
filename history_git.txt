@@ -1,0 +1,31 @@
+git --version
+cd
+git config --global user.name nanthini
+git config -- global user.email "dr.nandhurs@gmail.com"
+git config -- global user.email dr.nandhurs@gmail.com
+git config --list
+git config --global user.email dr.nandhurs@gmail.com
+git config --list
+cd
+cd practice
+mkdir git_demo
+cd git_demo
+git init
+echo "My first Git Project"> README.md
+git status
+git add README.md
+git status
+git commit -m "Initial Commit: Add README"
+git clone https://github.com/nanthini-1990/my_first_repo.git
+cd my_first_repo
+git remote -v
+echo 'print("Hello, GitHub")' > hello.py
+git status
+git add hello.py
+git status
+git add README.md
+git status
+git diff
+git commit -m
+git commit -m "Add hello.py and update README with learning notes"
+doskey/history>history_git.txt
